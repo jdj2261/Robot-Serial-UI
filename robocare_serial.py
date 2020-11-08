@@ -100,7 +100,7 @@ class RobocareSerialUI(QtGui.QMainWindow):
 
     def init_window(self) :
         self.setGeometry(50, 50, 600, 600)
-        self.setWindowTitle('Robocare Serial')
+        self.setWindowTitle('Serial Interface UI')
         self.show()
 
     def add_widget(self):
